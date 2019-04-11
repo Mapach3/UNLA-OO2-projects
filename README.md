@@ -1,2 +1,3 @@
 # UNLA-OO2-projects
-UNLA proyectos - Orientacion a objetos 2 
+Proyectos de Orientación a Objetos 2 - 2019
+Persistencia de datos con Hibernate  y otros.
