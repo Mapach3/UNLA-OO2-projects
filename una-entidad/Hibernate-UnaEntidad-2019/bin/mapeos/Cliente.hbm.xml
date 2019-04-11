@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration">
+<hibernate-mapping>
+<class name="datos.Cliente" table="cliente">
+<id column="idCliente" name="idCliente">
+<generator class="identity"/>
+</id>
+<property column="apellido" name="apellido" type="string"/>						<!-- EN PROPERTIES VA PRIMERO EL NOMBRE EN LA TABLA, LUEGO EL DE LA CLASE -->
+<property column="nombre" name="nombre" type="string"/>
+<property column="documento" name="dni" type="int"/>
+<property column="fechaDeNacimiento" name="fechaDeNacimiento" type="LocalDate"/>
+<property column="baja" name="baja" type="boolean"/>
+</class>
+</hibernate-mapping>
